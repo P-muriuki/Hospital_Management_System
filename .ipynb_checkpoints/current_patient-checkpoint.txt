@@ -1,0 +1,1 @@
+<built-in method lower of str object at 0x000001B528A15370>
