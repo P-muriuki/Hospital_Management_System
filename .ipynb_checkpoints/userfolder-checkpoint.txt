@@ -3,3 +3,6 @@
 {'name': 'madgaline wanjiru', 'blood_group': 'b+', 'location': 'umoja', 'gender': 'female', 'year_of_birth': 1996.0, 'weight': 87.0, 'blood_pressure': 98.0}
 {'name': 'anne nyawira', 'blood_group': 'o-', 'location': 'donholm', 'gender': 'female', 'year_of_birth': 1969.0, 'weight': 73.0, 'blood_pressure': 56.0}
 {'name': 'nicodemus muriuki', 'blood_group': 'o-', 'location': 'fedha', 'gender': 'male', 'year_of_birth': 1969.0, 'weight': 87.0, 'blood_pressure': 45.0}
+{'name(first and last)': 'benson otiende', 'blood_group': 'o-', 'location': 'loresho', 'gender': 'male', 'year_of_birth': 1980.0, 'weight': 67.0, 'blood_pressure': 34.0}
+{'name(first and last)': 'jackson biko', 'blood_group': 'a+', 'location': 'kayole', 'gender': 'male', 'year_of_birth': 1978.0, 'weight': 70.0, 'blood_pressure': 76.0}
+{'name(first and last)': 'billy otieno', 'blood_group': 'ab+', 'location': "lang'ata", 'gender': 'male', 'year_of_birth': 1993.0, 'weight': 89.0, 'blood_pressure': 90.0}
