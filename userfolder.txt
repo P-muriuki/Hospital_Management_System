@@ -6,3 +6,4 @@
 {'name(first and last)': 'benson otiende', 'blood_group': 'o-', 'location': 'loresho', 'gender': 'male', 'year_of_birth': 1980.0, 'weight': 67.0, 'blood_pressure': 34.0}
 {'name(first and last)': 'jackson biko', 'blood_group': 'a+', 'location': 'kayole', 'gender': 'male', 'year_of_birth': 1978.0, 'weight': 70.0, 'blood_pressure': 76.0}
 {'name(first and last)': 'billy otieno', 'blood_group': 'ab+', 'location': "lang'ata", 'gender': 'male', 'year_of_birth': 1993.0, 'weight': 89.0, 'blood_pressure': 90.0}
+{'name(first and last)': 'daniel ogello', 'blood_group': 'b+', 'location': 'kitengela', 'gender': 'male', 'year_of_birth': 1997.0, 'weight': 45.0, 'blood_pressure': 87.0}

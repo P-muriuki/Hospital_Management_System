@@ -1,3 +1,4 @@
+from datetime import date
 class BaseSystem:
     """Base class with common functionality"""
     
@@ -52,17 +53,19 @@ class System(BaseSystem):
                 uservalue = uservalue.lower()
                 userdictionary[info] = uservalue
         
-        with open(filename, "a") as fn:
+        with open(self.filename, "a") as fn:
             fn.write(f"{userdictionary}\n")
+        self.userdictionary = userdictionary
+
     def show_and_find_info(self):
         """Uses a patient's name to search for the rest of the patient's information. 
         If it doesn't exist, prompt user information collection"""
-        print(f"Searching for user: {self.user}")
+        # print(f"Searching for user: {self.user}")
         with open(self.filename) as fn:
             data = fn.readlines()
             for line in data:
                 if self.user in line:
-                    print("Patient information retrieved!")
+                    # print("Patient information retrieved!")
                     user1 = eval(line.rstrip())
                     for key, values in user1.items():
                         print(f"{key.title()}:{values}")
