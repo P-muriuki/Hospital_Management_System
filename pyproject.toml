@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hms-env"
+version = "0.1.0"
+description = "Hospital Management System Dependencies"
+authors = ["Petra Muriuki <wairimumuriuki07@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "*"
+ipykernel = "*"
+numpy = "*"
+plotly = "*"
+datetime = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
