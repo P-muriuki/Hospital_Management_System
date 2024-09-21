@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "hms-env"
+name = "hospital-management-system"
 version = "0.1.0"
-description = "Hospital Management System Dependencies"
-authors = ["Petra Muriuki <wairimumuriuki07@gmail.com>"]
+description = "To create a working and seamless integration of collecting and storing data"
+authors = ["P- muriuki <wairimumuriuki07@gmail.com>"]
 readme = "README.md"
 package-mode = false
 
@@ -13,7 +13,7 @@ ipykernel = "*"
 numpy = "*"
 plotly = "*"
 datetime = "*"
-
+jupyter = "*"
 
 [build-system]
 requires = ["poetry-core"]
