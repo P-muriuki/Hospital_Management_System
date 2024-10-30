@@ -14,6 +14,7 @@ numpy = "*"
 plotly = "*"
 datetime = "*"
 jupyter = "*"
+papermill = "^2.6.0"
 
 [build-system]
 requires = ["poetry-core"]
