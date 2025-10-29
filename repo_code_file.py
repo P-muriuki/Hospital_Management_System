@@ -74,24 +74,24 @@ def gettingpatientdata(file_path=file_path):
     with open(file_path) as f:
         data = json.load(f)
     
-    key_searched = input("Patient ID: ")
+    key_searched = input("Patient ID: ").strip()
     patient_found = False
 
     for key, values in data.items():
         if key == key_searched:
-            print(values)  # Open the dashboard with the patient's information
             patient_found = True
+            print(values)  # Open the dashboard with the patient's information
             break  # Exit the loop if the patient is found
     
     if not patient_found:
-        print("Patient has no such data. Collecting data...")
-        saving_data()
+            print("Patient has no such data. Collecting data...")
+            saving_data()
 
 def appointmentdate_data(file_path=file_path):
     with open(file_path) as f:
         data = json.load(f)
     
-    key_searched = input("Patient ID: ")
+    key_searched = input("Patient ID: ").strip()
     patient_found = False  # Flag to track if the patient ID was found
 
     for key, values in data.items():
@@ -131,7 +131,7 @@ def blood_pressure_adjustments(file_path=file_path):
     with open(file_path) as f:
         data = json.load(f)
         
-    key_searched = input("Patient ID: ")
+    key_searched = input("Patient ID: ").strip()
     patient_found = False  # Flag to track if the patient ID was found
     for key, values in data.items():
         if key == key_searched:
